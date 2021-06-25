@@ -82,11 +82,31 @@ body.fotos #navegacao a#fotos {
     background: #f5f5f5;
 }
 
+#lateral {
+    width: 180px;
+    background:chocolate;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario {
-    width: 270px;
     background: blueviolet;
     float: left;
+}
+
+#tres-colunas #primario {
+    width: 270px;
     margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
 }
 
 #secundario {
@@ -96,12 +116,6 @@ body.fotos #navegacao a#fotos {
     margin: 0 0 20px 15px;
 }
 
-#lateral {
-    width: 180px;
-    background:chocolate;
-    float: left;
-    margin: 0 0 20px -750px;
-}
 
 /* Rodapé */
 
